@@ -1,0 +1,95 @@
+/*importing fonts from Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: #F4D04E;
+    font-family: "Figtree", serif;
+}
+
+.img1 {
+     /*set size for the image so that it fits the card*/
+     width: 100%;
+     /*make image border round*/
+     border-radius: 12px;
+}
+
+#container {
+    /*set a size for the container so it will not take up the whole screen*/
+    max-width: 370px;
+    /*center the container*/
+    margin: 0 auto;
+    /*add space to the top of container. 20 vh means 20% of the view high*/
+    margin-top: 15vh;
+}
+
+.card{
+    /*add background color for card*/
+    background-color: white;
+    /*add background for card*/
+    padding: 20px;
+    /*make background border round*/
+    border-radius: 17px;
+    /*box-shadow: x-offset y-offset blur_radius color;*/
+    box-shadow: 7px 7px #111111;
+    border: 1px solid;
+    border-color: #111111;
+}
+
+.category{
+    margin-top: 15px;
+    width: 85px;
+    height: 27px;
+    border-radius: 5px;
+    background-color: #F4D04E;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 800;  
+}
+
+.learning{
+    padding-top: 5px;
+}
+
+.publish{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+/*make mouse hover color changing effect*/
+.title:hover{
+    color: #F4D04E;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #6B6B6B;
+}
+
+
+.author{
+    display: flex;  
+}
+
+.img2{
+    width: 10%;  
+    height: 10%;
+    padding-top: 7px;
+}
+
+.name{
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 150%; 
+}
+
+
